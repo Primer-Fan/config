@@ -1,5 +1,8 @@
 local opt = vim.opt
 
+-- 设置背景色为暗色
+opt.background = 'dark'
+
 -- 行号
 opt.relativenumber = true
 opt.number = true
@@ -7,8 +10,10 @@ opt.number = true
 -- 缩进
 opt.tabstop = 4
 opt.shiftwidth = 4
-opt.expandtab = true
 opt.autoindent = true
+
+-- 替换tab为空格
+opt.expandtab = true
 
 -- 防止包裹
 opt.wrap = false
